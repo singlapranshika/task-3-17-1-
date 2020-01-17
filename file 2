@@ -1,0 +1,27 @@
+Imports System
+				
+Public class Module1
+	
+	Public Sub Main()
+		Dim first As Integer
+		Dim second As Integer
+		Console.WriteLine("enter numbers")
+		first=Convert.ToInt32(Console.ReadLine())
+		second=Convert.ToInt32(Console.ReadLine())
+	Dim ch As String
+		Console.WriteLine("enter operator")
+		ch=Console.ReadLine()
+		If ch="+" Then
+			 Console.WriteLine(first+second)
+		End If
+		If ch="-" Then
+			 Console.WriteLine(first-second)
+		End If
+		If ch="*" Then
+			 Console.WriteLine(first*second)
+		End If
+		If ch="/" Then
+			 Console.WriteLine(first/second)
+		End If
+	End Sub
+End class
